@@ -1,0 +1,21 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .hero {
+    background: url('../assets/hero-bg.jpg') no-repeat center center/cover;
+    color: #333;
+  }
+  
+  h2 {
+    margin-bottom: 30px;
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  footer {
+    font-size: 0.9rem;
+  }
+  
