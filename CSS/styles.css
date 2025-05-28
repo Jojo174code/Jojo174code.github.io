@@ -42,4 +42,24 @@ body {
 }
 
 
+@keyframes glowText {
+  0% {
+    text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff;
+    color: #ffffff;
+  }
+  50% {
+    text-shadow: 0 0 10px #0ff, 0 0 20px #00f, 0 0 30px #00f;
+    color: #ccffff;
+  }
+  100% {
+    text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff;
+    color: #ffffff;
+  }
+}
+
+.glowing-header {
+  animation: glowText 2s ease-in-out infinite;
+}
+
+
   
