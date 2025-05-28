@@ -42,24 +42,20 @@ body {
 }
 
 
-@keyframes pulseFloat {
-  0% {
-    transform: translateY(0);
-    text-shadow: 0 0 5px #0ff, 0 0 10px #0ff;
-  }
-  50% {
-    transform: translateY(-8px);
-    text-shadow: 0 0 15px #00f, 0 0 30px #00f;
-  }
-  100% {
-    transform: translateY(0);
-    text-shadow: 0 0 5px #0ff, 0 0 10px #0ff;
-  }
+.fancy-header {
+  background: linear-gradient(90deg, #00ffff, #0066ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientMove 5s ease infinite;
 }
 
-.fancy-header {
-  animation: pulseFloat 3s ease-in-out infinite;
-  color: #ffffff;
+@keyframes gradientMove {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
 }
 
 
