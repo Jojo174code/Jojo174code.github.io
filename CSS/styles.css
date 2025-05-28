@@ -44,8 +44,10 @@ body {
 
 .fancy-header {
   background: linear-gradient(90deg, #00ffff, #0066ff);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: transparent;
   animation: gradientMove 5s ease infinite;
 }
 
